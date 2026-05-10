@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=Actuarial+pricing+engines+with+conformal+guarantees+%F0%9F%8E%AF;Hybrid+XGBoost+%2B+bias+correction+%7C+R%C2%B2+%3D+0.90;FastAPI+%2B+MLflow+%2B+DVC+%7C+full+MLOps+stack;Edge+AI+%E2%80%A2+NLP+%E2%80%A2+Computer+Vision+%E2%80%A2+LLM+Agents;From+raw+data+to+production+%E2%80%94+all+the+way)](https://github.com/PRANAVGAWALE-DS)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=Actuarial+pricing+engine+%E2%80%94+live+on+Hugging+Face+%F0%9F%8E%AF;RMSE+%243%2C934+%C2%B7+91.1%25+conformal+coverage+%C2%B7+deployed;4+IPL+ML+models+%7C+Live+win+prob+AUC+0.864;FastAPI+%2B+MLflow+%2B+DVC+%7C+full+MLOps+stack;5-model+benchmark+%C2%B7+Optuna+HPO+%C2%B7+CI+regression+gates;From+raw+data+to+production+%E2%80%94+all+the+way)](https://github.com/PRANAVGAWALE-DS)
 
 <br/>
 
@@ -26,13 +26,13 @@
 
 ## ⚡ What I Actually Build
 
-I don't do toy examples. Every project here is engineered for production — with real deployment gates, monitored inference, and statistically grounded uncertainty.
+I don't do toy examples. Every project here is engineered for production — with real deployment gates, monitored inference, statistically grounded uncertainty, and honest reporting when a metric is hard to beat.
 
 - 🏗️ **Production ML pipelines** — XGBoost/LightGBM hybrid routing, Optuna HPO, MLflow tracking, DVC versioning, Docker + GitHub Actions CI/CD
 - 📐 **Calibrated uncertainty** — conformal prediction intervals with distribution-free coverage guarantees (not "±20% bands")
 - 🔬 **Actuarial ML** — 3-tier bias correction, Yeo-Johnson target transforms, heteroscedastic segment-adaptive interval widths
-- 🤖 **Edge AI & NLP** — efficient inference on constrained hardware (RTX 3050 4GB), DistilBERT-class models, ONNX export paths
-- 📊 **End-to-end MLOps** — SHA-256 artifact verification, model regression gates, async FastAPI serving, Streamlit dashboards
+- 🏏 **Sports ML** — 4-model IPL pipeline with temporal train/test splits and data-leakage guards; live win probability AUC 0.864
+- 🌐 **Live deployments** — FastAPI + Streamlit served on Hugging Face Spaces; EV dashboard on Streamlit Cloud
 
 ---
 
@@ -52,8 +52,8 @@ I don't do toy examples. Every project here is engineered for production — wit
 **MLOps & Serving** &nbsp;
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-**Data** &nbsp;
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logoColor=white)
+**Data & Viz** &nbsp;
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logoColor=white)
 
 ---
 
@@ -64,22 +64,23 @@ I don't do toy examples. Every project here is engineered for production — wit
 <td>
 
 ### [🏥 Actuarial Pricing Engine](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine)
-**Production-grade insurance premium prediction — not a Kaggle notebook.**
+**Production-grade insurance premium prediction — live on Hugging Face Spaces.**
 
-[![CI](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml) [![CD](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml) [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org) [![XGBoost](https://img.shields.io/badge/XGBoost-3.1.1-FF6600?style=flat-square)](https://xgboost.readthedocs.io) [![FastAPI](https://img.shields.io/badge/FastAPI-0.118.0-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com) [![MLflow](https://img.shields.io/badge/MLflow-3.4.0-0194E2?style=flat-square&logo=mlflow)](https://mlflow.org)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit&logoColor=white)](https://pg-aiml-actuarial-pricing-dashboard.hf.space) [![API Docs](https://img.shields.io/badge/API-Swagger-009688?style=flat-square&logo=fastapi&logoColor=white)](https://pg-aiml-actuarial-pricing-api.hf.space/docs) [![CI](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml) [![CD](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml) [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org) [![XGBoost](https://img.shields.io/badge/XGBoost-3.1.1-FF6600?style=flat-square)](https://xgboost.readthedocs.io) [![FastAPI](https://img.shields.io/badge/FastAPI-0.118.0-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com) [![MLflow](https://img.shields.io/badge/MLflow-3.4.0-0194E2?style=flat-square&logo=mlflow)](https://mlflow.org)
 
 ```
-R² = 0.9006  ·  RMSE = $3,812  ·  MAE = $2,549
-90% Conformal Coverage Guaranteed  ·  Net Profit uplift +$309,396 (+6.5%)
+RMSE = $3,934  ·  Cost-Weighted R² = 0.8788  ·  91.1% Conformal Coverage (90% target)
+Net Profit uplift +$309,396 (+6.5%)  ·  5-model benchmark  ·  51,337 samples  ·  46 features
 ```
 
 **Architecture highlights:**
-- 🎯 Two-model hybrid routing — XGBoost base + `HighValueSpecialist` with smooth 16,701–21,695 USD blend zone
-- 📐 Heteroscedastic conformal prediction — 91.1% empirical coverage on n=7,701 (target: 90%)
-- 🔬 3-tier Yeo-Johnson bias correction segmented at 9,257 and 14,276 USD quantiles
-- 🔒 SHA-256 checksum verification *before* `joblib.load()` — not after (RCE-safe artifact loading)
-- 🏗️ Full MLOps stack: MLflow · DVC · Optuna · Docker multi-stage · GitHub Actions regression gate
-- ⚡ FastAPI `/predict` + `/batch` (1–10,000 records) + Streamlit dashboard v3.5.5
+- 🎯 Two-model hybrid routing — XGBoost base + `HighValueSpecialist`; hard routing threshold `$16,701`, soft blend window `$18,037–$21,695` preventing sharp discontinuities; 4/5 KPI wins → **DEPLOY HYBRID**
+- 📐 Heteroscedastic conformal prediction — 10-bin, winsorized at 99th pctile — **91.1% empirical coverage** on n=7,701 (target: 90%)
+- 🔬 3-tier Yeo-Johnson bias correction (Low ×0.9114 · Mid ×1.0138 · High ×0.9969); post-hoc calibrator gated on holdout RMSE + R² + MAE — uncalibrated retained in current run (MAE worsened 2.38%)
+- 🔒 SHA-256 checksum verification *before* `joblib.load()` — not after (closes the RCE deserialization window)
+- 🏗️ Full MLOps: MLflow · DVC · Optuna HPO (268.6s, +4.2% train/val gap — *Minimal Overfitting*) · Docker multi-stage
+- ⚙️ CI: Lint (ruff) → Type check (mypy) ∥ Tests (pytest, 30%+ coverage) → **6-gate regression check** (G4/G6/G7 + RMSE cap + no-NaN + no-negative) → CD push to GHCR
+- 🌐 **Live:** [Dashboard](https://pg-aiml-actuarial-pricing-dashboard.hf.space) · [API + Swagger](https://pg-aiml-actuarial-pricing-api.hf.space/docs) · FastAPI `/predict` + `/batch` (1–10,000 records) · All GitHub Actions pinned to full commit SHAs
 
 </td>
 </tr>
@@ -89,12 +90,93 @@ R² = 0.9006  ·  RMSE = $3,812  ·  MAE = $2,549
 
 ## 🔬 More Projects
 
-| | Project | Dataset / Scale | Key Result | Stack |
-|---|---------|---------|-------------|-------|
-| 🧬 | **[Insurance Data Augmentation](https://github.com/PRANAVGAWALE-DS/Data-Augmentation)** | 1,337 → 50,000 synthetic rows · 11-section QC suite | TabDDPM TSTR R²=0.88 · full fidelity + privacy checks | SDV · PyTorch · TabDDPM · CTGAN · MLflow |
-| ⚡ | **[Electric Vehicle Analysis](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)** | 130,443 EVs · 17 features | Tesla Model 3 #1 · California 30% share · max range 396mi | Pandas · Seaborn · Matplotlib |
-| 🏏 | **[IPL Cricket Analytics](https://github.com/PRANAVGAWALE-DS/Cricket)** | 150,460 ball-by-ball deliveries · 636 matches | MI most wins · fielding-first wins 57% of tosses | Pandas · Matplotlib · Seaborn |
-| 💰 | **[Billionaires Statistics](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset)** | 2,640 billionaires · 35 features | 68.6% self-made · Finance leads · US hosts 754 | Pandas · Seaborn · Matplotlib |
+<table>
+<tr>
+<th align="left">Project</th>
+<th align="left">Scale</th>
+<th align="left">Headline Result</th>
+<th align="left">Stack</th>
+</tr>
+
+<tr>
+<td>
+
+**🏏 [IPL Cricket Analysis](https://github.com/PRANAVGAWALE-DS/Cricket)**
+<br/>*4 production ML models on 12 seasons of ball-by-ball data. Zero notebooks, zero shortcuts.*
+
+</td>
+<td>150,460 deliveries<br/>636 matches<br/>2008–2019</td>
+<td>
+
+⭐ **Live Win Probability — AUC 0.864** (temporal split, no leakage)
+<br/>POTM Classifier — PR-AUC 0.641, Recall 92.9%
+<br/>Score Predictor — MAE 16 runs at over 10 (half-innings snapshot)
+<br/>Match Winner — AUC 0.501 *(honest: T20 is genuinely unpredictable pre-match)*
+<br/>30 interactive Plotly charts · 6 data-integrity bugs found and fixed
+
+</td>
+<td>XGBoost · LightGBM · Optuna · Plotly · scikit-learn · joblib</td>
+</tr>
+
+<tr>
+<td>
+
+**⚡ [Washington State EV Analysis](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)**
+<br/>*EDA + ML + ARIMA/LightGBM forecasting + live Streamlit dashboard*
+
+</td>
+<td>~177,866 EV registrations<br/>Washington State DOL<br/>2010–2023</td>
+<td>
+
+Tesla 45.7% market share · HHI >2,500 (highly concentrated)
+<br/>King County = 52.5% of WA total · Most registered year: 2022 (28,013 vehicles)
+<br/>CAFV Eligibility Classifier + Range Regressor (XGBoost + Optuna + SHAP)
+<br/>ARIMA(2,1,1) + LightGBM walk-forward adoption forecasting
+<br/>**[Live Streamlit Dashboard ↗](https://electricvehicle-oa89dgvf6dw52cd2kcxiqq.streamlit.app/)**
+
+</td>
+<td>XGBoost · LightGBM · Optuna · SHAP · ARIMA · Streamlit · Plotly · GitHub Actions CI</td>
+</tr>
+
+<tr>
+<td>
+
+**💰 [Billionaires Statistics](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset)**
+<br/>*EDA + statistical testing + XGBoost + K-Means clustering*
+
+</td>
+<td>2,640 billionaires<br/>35 raw → 43 FE features<br/>Kaggle 2023</td>
+<td>
+
+Self-made share: 69.2% · Gini >0.6 within the billionaire class itself
+<br/>Self-Made Classifier — **ROC-AUC 0.8436** (XGBoost + Optuna, 40 trials, 5-fold CV)
+<br/>Worth Regressor — R²=0.08 *(honest: wealth scale has minimal signal from demographics alone)*
+<br/>χ²: gender × self-made p<0.001 · ANOVA: net worth × category p<0.001
+<br/>K-Means k=4 + PCA 2D projection · SHAP beeswarm for both models
+
+</td>
+<td>XGBoost · Optuna · SHAP · K-Means · scikit-learn · Plotly · Seaborn</td>
+</tr>
+
+<tr>
+<td>
+
+**🧬 [Insurance Data Augmentation](https://github.com/PRANAVGAWALE-DS/Data-Augmentation)**
+<br/>*Synthetic tabular data pipeline with 11-section QC suite*
+
+</td>
+<td>1,337 → 50,000 synthetic rows<br/>4 generative models benchmarked<br/>11-section QC suite</td>
+<td>
+
+**TabDDPM TSTR R²=0.88** (best fidelity · requires PyTorch)
+<br/>TVAE R²=0.86 · CTGAN R²=0.73 · DP-CTGAN R²=0.59
+<br/>Full fidelity, privacy, and structural QC checks · MIA AUC evaluated at 37× scale
+
+</td>
+<td>SDV · TabDDPM · CTGAN · TVAE · PyTorch · MLflow · Pandas</td>
+</tr>
+
+</table>
 
 ---
 
@@ -144,7 +226,7 @@ R² = 0.9006  ·  RMSE = $3,812  ·  MAE = $2,549
 
 ```python
 focus = {
-    "active":      "Actuarial Pricing Engine — ONNX export · ResidualBiasMonitor · async batch",
+    "active":      "Actuarial Pricing Engine — ONNX export · async batch (Celery) · churn model integration",
     "learning":    ["conformal prediction theory", "QLoRA fine-tuning", "speculative decoding"],
     "next_build":  "SentinelSumm — legal NLP pipeline with DistilBERT + clause extraction",
     "hardware":    "NVIDIA RTX 3050 4GB · 16GB RAM · Windows 11 + WSL2",
