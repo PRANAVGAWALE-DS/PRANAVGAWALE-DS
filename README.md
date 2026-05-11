@@ -47,10 +47,10 @@ I don't do toy examples. Every project here is engineered for production — wit
 <br/>
 
 **ML Ecosystem** &nbsp;
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2DA44E?style=flat-square&logoColor=white) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Optuna](https://img.shields.io/badge/Optuna-3E4CB0?style=flat-square&logoColor=white) ![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2DA44E?style=flat-square&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Optuna](https://img.shields.io/badge/Optuna-3E4CB0?style=flat-square&logoColor=white) ![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white)
 
 **MLOps & Serving** &nbsp;
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 **Data & Viz** &nbsp;
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logoColor=white)
@@ -66,7 +66,7 @@ I don't do toy examples. Every project here is engineered for production — wit
 ### [🏥 Actuarial Pricing Engine](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine)
 **Production-grade insurance premium prediction — live on Hugging Face Spaces.**
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit&logoColor=white)](https://pg-aiml-actuarial-pricing-dashboard.hf.space) [![API Docs](https://img.shields.io/badge/API-Swagger-009688?style=flat-square&logo=fastapi&logoColor=white)](https://pg-aiml-actuarial-pricing-api.hf.space/docs) [![CI](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml) [![CD](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml) [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org) [![XGBoost](https://img.shields.io/badge/XGBoost-3.1.1-FF6600?style=flat-square)](https://xgboost.readthedocs.io) [![FastAPI](https://img.shields.io/badge/FastAPI-0.118.0-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com) [![MLflow](https://img.shields.io/badge/MLflow-3.4.0-0194E2?style=flat-square&logo=mlflow)](https://mlflow.org)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit&logoColor=white)](https://pg-aiml-actuarial-pricing-dashboard.hf.space) [![API Docs](https://img.shields.io/badge/API-Swagger-009688?style=flat-square&logo=fastapi&logoColor=white)](https://pg-aiml-actuarial-pricing-api.hf.space/docs) [![CI](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml) [![CD](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml) [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org) [![XGBoost](https://img.shields.io/badge/XGBoost-3.1.1-FF6600?style=flat-square)](https://xgboost.readthedocs.io) [![FastAPI](https://img.shields.io/badge/FastAPI-0.118.0-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com) [![MLflow](https://img.shields.io/badge/MLflow-3.4.0-0194E2?style=flat-square&logo=mlflow)](https://mlflow.org) [![DVC](https://img.shields.io/badge/DVC-3.63.0-945DD6?style=flat-square&logo=dvc&logoColor=white)](https://dvc.org)
 
 ```
 RMSE = $3,934  ·  Cost-Weighted R² = 0.8788  ·  91.1% Conformal Coverage (90% target)
@@ -115,7 +115,7 @@ Net Profit uplift +$309,396 (+6.5%)  ·  5-model benchmark  ·  51,337 samples  
 <br/>30 interactive Plotly charts · 6 data-integrity bugs found and fixed
 
 </td>
-<td>XGBoost · LightGBM · Optuna · Plotly · scikit-learn · joblib</td>
+<td>XGBoost · LightGBM · Plotly · scikit-learn · joblib</td>
 </tr>
 
 <tr>
