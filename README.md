@@ -194,14 +194,6 @@ Self-made share: 69.2% · Gini >0.6 within the billionaire class itself
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=PRANAVGAWALE-DS&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&rank_icon=github" />
-&nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRANAVGAWALE-DS&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6" />
-
-</div>
-
-<div align="center">
-
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PRANAVGAWALE-DS&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff)](https://github.com/PRANAVGAWALE-DS)
 
 </div>
