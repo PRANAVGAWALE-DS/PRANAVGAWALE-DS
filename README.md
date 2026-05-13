@@ -57,14 +57,14 @@ I don't do toy examples. Every project here is engineered for production — wit
 
 ---
 
-## 🚀 Flagship: Actuarial Pricing Engine
+## 🚀 Flagship: Actuarial Risk Pricing System
 
 <table>
 <tr>
 <td>
 
-### [🏥 Actuarial Pricing Engine](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine)
-**Production-grade insurance premium prediction — live on Hugging Face Spaces.**
+### [🏥 Actuarial Risk Pricing System](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine)
+**Production-grade actuarial risk pricing system — live on Hugging Face Spaces.**
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit&logoColor=white)](https://pg-aiml-actuarial-pricing-dashboard.hf.space) [![API Docs](https://img.shields.io/badge/API-Swagger-009688?style=flat-square&logo=fastapi&logoColor=white)](https://pg-aiml-actuarial-pricing-api.hf.space/docs) [![CI](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml) [![CD](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml) [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org) [![XGBoost](https://img.shields.io/badge/XGBoost-3.1.1-FF6600?style=flat-square)](https://xgboost.readthedocs.io) [![FastAPI](https://img.shields.io/badge/FastAPI-0.118.0-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com) [![MLflow](https://img.shields.io/badge/MLflow-3.4.0-0194E2?style=flat-square&logo=mlflow)](https://mlflow.org) [![DVC](https://img.shields.io/badge/DVC-3.63.0-945DD6?style=flat-square&logo=dvc&logoColor=white)](https://dvc.org)
 
@@ -101,8 +101,8 @@ Net Profit uplift +$309,396 (+6.5%)  ·  5-model benchmark  ·  51,337 samples  
 <tr>
 <td>
 
-**🏏 [IPL Cricket Analysis](https://github.com/PRANAVGAWALE-DS/Cricket)**
-<br/>*4 production ML models on 12 seasons of ball-by-ball data. Zero notebooks, zero shortcuts.*
+**🏏 [IPL Match Intelligence Pipeline](https://github.com/PRANAVGAWALE-DS/Cricket)**
+<br/>*4-model ML pipeline on 12 seasons of ball-by-ball data. Temporal splits, zero data leakage.*
 
 </td>
 <td>150,460 deliveries<br/>636 matches<br/>2008–2019</td>
@@ -121,7 +121,7 @@ Net Profit uplift +$309,396 (+6.5%)  ·  5-model benchmark  ·  51,337 samples  
 <tr>
 <td>
 
-**⚡ [Washington State EV Analysis](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)**
+**⚡ [EV Adoption Forecasting Dashboard](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)**
 <br/>*EDA + ML + ARIMA/LightGBM forecasting + live Streamlit dashboard*
 
 </td>
@@ -141,7 +141,7 @@ Tesla 45.7% market share · HHI >2,500 (highly concentrated)
 <tr>
 <td>
 
-**💰 [Billionaires Statistics](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset)**
+**💰 [Billionaire Wealth Distribution Analysis](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset)**
 <br/>*EDA + statistical testing + XGBoost + K-Means clustering*
 
 </td>
@@ -161,7 +161,7 @@ Self-made share: 69.2% · Gini >0.6 within the billionaire class itself
 <tr>
 <td>
 
-**🧬 [Insurance Data Augmentation](https://github.com/PRANAVGAWALE-DS/Data-Augmentation)**
+**🧬 [Synthetic Tabular Data Augmentation Suite](https://github.com/PRANAVGAWALE-DS/Data-Augmentation)**
 <br/>*Synthetic tabular data pipeline with 11-section QC suite*
 
 </td>
@@ -218,7 +218,7 @@ Self-made share: 69.2% · Gini >0.6 within the billionaire class itself
 
 ```python
 focus = {
-    "active":      "Actuarial Pricing Engine — ONNX export · async batch (Celery) · churn model integration",
+    "active":      "Actuarial Risk Pricing System — ONNX export · async batch (Celery) · churn model integration",
     "learning":    ["conformal prediction theory", "QLoRA fine-tuning", "speculative decoding"],
     "next_build":  "SentinelSumm — legal NLP pipeline with DistilBERT + clause extraction",
     "hardware":    "NVIDIA RTX 3050 4GB · 16GB RAM · Windows 11 + WSL2",
