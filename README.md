@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=Actuarial+pricing+engine+%E2%80%94+live+on+Hugging+Face+%F0%9F%8E%AF;RMSE+%243%2C934+%C2%B7+91.1%25+conformal+coverage+%C2%B7+deployed;4+IPL+ML+models+%7C+Live+win+prob+AUC+0.864;FastAPI+%2B+MLflow+%2B+DVC+%7C+full+MLOps+stack;5-model+benchmark+%C2%B7+Optuna+HPO+%C2%B7+CI+regression+gates;From+raw+data+to+production+%E2%80%94+all+the+way)](https://github.com/PRANAVGAWALE-DS)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=840&lines=ML+Engineer+%E2%80%94+production+or+it+doesn%27t+count;5+projects+%7C+6+live+apps+%7C+220+confirmed+tests;Actuarial+RMSE+%243%2C934+%C2%B7+91.1%25+conformal+coverage+%C2%B7+live+HF;Match+Winner+AUC+0.530+%E2%86%92+0.797+%E2%80%94+feature+engineering+alone;EV+Range+R%C2%B2+0.9858+%C2%B7+CAFV+F1+0.9725+%C2%B7+Billionaires+AUC+0.8154;XGBoost+%C2%B7+LightGBM+%C2%B7+PyTorch+GRU+%C2%B7+FastAPI+%C2%B7+Docker)](https://github.com/PRANAVGAWALE-DS)
 
 <br/>
 
@@ -12,7 +12,7 @@
 &nbsp;
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-FF6B35?style=for-the-badge&logo=netlify&logoColor=white)](https://pranavgawale.netlify.app/)
 &nbsp;
-[![Location](https://img.shields.io/badge/%F0%9F%93%8D_Pune%2C_India-Open_to_ML_Roles-2DA44E?style=for-the-badge)](https://github.com/PRANAVGAWALE-DS)
+[![Location](https://img.shields.io/badge/📍_Pune%2C_India-Open_to_ML_Roles-2DA44E?style=for-the-badge)](https://github.com/PRANAVGAWALE-DS)
 &nbsp;
 [![Profile Views](https://komarev.com/ghpvc/?username=PRANAVGAWALE-DS&style=for-the-badge&color=1f6feb&label=Profile+Views)](https://github.com/PRANAVGAWALE-DS)
 
@@ -26,13 +26,15 @@
 
 ## ⚡ What I Actually Build
 
-I don't do toy examples. Every project here is engineered for production — with real deployment gates, monitored inference, statistically grounded uncertainty, and honest reporting when a metric is hard to beat.
+Every project here is engineered for production — real deployment gates, monitored inference, statistically grounded uncertainty, and honest reporting when a metric is hard to beat.
 
-- 🏗️ **Production ML pipelines** — XGBoost/LightGBM hybrid routing, Optuna HPO, MLflow tracking, DVC versioning, Docker + GitHub Actions CI/CD
-- 📐 **Calibrated uncertainty** — conformal prediction intervals with distribution-free coverage guarantees (not "±20% bands")
-- 🔬 **Actuarial ML** — 3-tier bias correction, Yeo-Johnson target transforms, heteroscedastic segment-adaptive interval widths
-- 🏏 **Sports ML** — 4-model IPL pipeline with temporal train/test splits and data-leakage guards; live win probability AUC 0.864
-- 🌐 **Live deployments** — FastAPI + Streamlit served on Hugging Face Spaces; EV dashboard on Streamlit Cloud
+<div align="center">
+
+| 🗄️ Records Handled | 🧪 Confirmed Tests | 🚀 Live Deployments | 🎯 Best Classifier | 📐 Best Regressor |
+|:---:|:---:|:---:|:---:|:---:|
+| **460,000+** | **220 confirmed** | **6 live apps** | **F1 0.9725** (CAFV) | **R² 0.9858** (EV Range) |
+
+</div>
 
 ---
 
@@ -46,41 +48,149 @@ I don't do toy examples. Every project here is engineered for production — wit
 
 <br/>
 
-**ML Ecosystem** &nbsp;
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2DA44E?style=flat-square&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Optuna](https://img.shields.io/badge/Optuna-3E4CB0?style=flat-square&logoColor=white) ![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white)
+**Ensemble & Tabular** &nbsp;
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-2DA44E?style=flat-square&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFD21E?style=flat-square&logoColor=black)
+
+**Deep Learning & Generative** &nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-GRU_%2F_TabDDPM-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![CTGAN](https://img.shields.io/badge/CTGAN%2FTVAE-945DD6?style=flat-square&logoColor=white)
+
+**HPO, Explainability & Uncertainty** &nbsp;
+![Optuna](https://img.shields.io/badge/Optuna-3E4CB0?style=flat-square&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white)
+![Conformal Prediction](https://img.shields.io/badge/Conformal_Prediction-7C3AED?style=flat-square&logoColor=white)
 
 **MLOps & Serving** &nbsp;
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 **Data & Viz** &nbsp;
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logoColor=white)
 
 ---
 
-## 🚀 Flagship: Actuarial Risk Pricing System
+## 🚀 Flagship · Actuarial Risk Pricing System
 
 <table>
 <tr>
 <td>
 
 ### [🏥 Actuarial Risk Pricing System](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine)
-**Production-grade actuarial risk pricing system — live on Hugging Face Spaces.**
+**Production-grade actuarial ML — live on Hugging Face Spaces.**
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=flat-square&logo=streamlit&logoColor=white)](https://pg-aiml-actuarial-pricing-dashboard.hf.space) [![API Docs](https://img.shields.io/badge/API-Swagger-009688?style=flat-square&logo=fastapi&logoColor=white)](https://pg-aiml-actuarial-pricing-api.hf.space/docs) [![CI](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml) [![CD](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml) [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org) [![XGBoost](https://img.shields.io/badge/XGBoost-3.1.1-FF6600?style=flat-square)](https://xgboost.readthedocs.io) [![FastAPI](https://img.shields.io/badge/FastAPI-0.118.0-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com) [![MLflow](https://img.shields.io/badge/MLflow-3.4.0-0194E2?style=flat-square&logo=mlflow)](https://mlflow.org) [![DVC](https://img.shields.io/badge/DVC-3.63.0-945DD6?style=flat-square&logo=dvc&logoColor=white)](https://dvc.org)
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Dashboard-brightgreen?style=flat-square&logo=streamlit&logoColor=white)](https://pg-aiml-actuarial-pricing-dashboard.hf.space)
+[![API Docs](https://img.shields.io/badge/API-Swagger_UI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://pg-aiml-actuarial-pricing-api.hf.space/docs)
+[![CI](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/ci.yml)
+[![CD](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Actuarial-Pricing-Engine/actions/workflows/cd.yml)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python)](https://python.org)
+[![XGBoost](https://img.shields.io/badge/XGBoost-3.1.1-FF6600?style=flat-square)](https://xgboost.readthedocs.io)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.118.0-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![MLflow](https://img.shields.io/badge/MLflow-3.4.0-0194E2?style=flat-square&logo=mlflow)](https://mlflow.org)
+[![DVC](https://img.shields.io/badge/DVC-3.63.0-945DD6?style=flat-square&logo=dvc)](https://dvc.org)
 
 ```
-RMSE = $3,934  ·  Cost-Weighted R² = 0.8788  ·  91.1% Conformal Coverage (90% target)
+RMSE $3,934  ·  Cost-Weighted R² 0.8788  ·  91.1% Conformal Coverage (target: 90%)
 Net Profit uplift +$309,396 (+6.5%)  ·  5-model benchmark  ·  51,337 samples  ·  46 features
 ```
 
+| Design Decision | Detail |
+|---|---|
+| **Routing** | Two-model hybrid — XGBoost base + `HighValueSpecialist`; hard threshold $16,701; soft blend window $18,037–$21,695 prevents sharp discontinuities; 4/5 KPI wins → **DEPLOY HYBRID** |
+| **Uncertainty** | Heteroscedastic conformal prediction — 10-bin, winsorized at 99th pctile → **91.1% empirical coverage** on n=7,701 holdout (distribution-free, not a band estimate) |
+| **Bias Correction** | 3-tier Yeo-Johnson — Low ×0.9114 · Mid ×1.0138 · High ×0.9969; post-hoc calibrator gated on holdout RMSE + R² + MAE — uncalibrated retained (MAE worsened 2.38% with calibration) |
+| **Security** | SHA-256 checksum verification *before* `joblib.load()` — closes the RCE deserialization window, not after |
+| **HPO** | Optuna (268.6s) — minimal overfitting (4.2% train/val gap) |
+| **CI/CD** | ruff → mypy ∥ pytest (30%+ coverage) → **6-gate regression** (G4/G6/G7 + RMSE cap + no-NaN + no-negative) → CD to GHCR; all Actions pinned to full commit SHAs |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏏 Featured · Cricket ML —  IPL Match Intelligence Pipeline
+
+<table>
+<tr>
+<td>
+
+### [🏏 Cricket ML —  IPL Match Intelligence Pipeline](https://github.com/PRANAVGAWALE-DS/Cricket)
+**5 models · 7 API endpoints · 5-page Streamlit dashboard · Dockerised · CI/CD — live on Hugging Face Spaces.**
+
+[![Live Demo](https://img.shields.io/badge/🤗_Live_Demo-HuggingFace_Spaces-FFD21E?style=flat-square)](https://huggingface.co/spaces/PG-AIML/Cricket)
+[![CI](https://img.shields.io/github/actions/workflow/status/PRANAVGAWALE-DS/Cricket/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/PRANAVGAWALE-DS/Cricket/actions)
+[![Tests](https://img.shields.io/badge/tests-43_passing-22C55E?style=flat-square)](https://github.com/PRANAVGAWALE-DS/Cricket)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python)](https://python.org)
+
+**756 matches · 179,078 deliveries · IPL seasons 2008–2019**
+
+| Model | Algorithm | Primary Metric | Value | Notes |
+|---|---|---|---|---|
+| Match Winner | XGBoost | Test AUC | **0.797** | CV AUC 0.800 ± 0.045 |
+| Score Predictor | LightGBM | Test MAE | **18 runs** | Over-10 snapshot, R² 0.52 |
+| GRU Score Predictor | PyTorch GRU | Val MAE / R² | **18 runs / 0.33** | Any over 1–20 (temporal split); R² lags LightGBM 0.52 — closes with more data |
+| Win Probability | LightGBM | Test AUC | **0.822** | Ball-by-ball, temporal split |
+| POTM Classifier | XGBoost | PR-AUC / Recall | **0.67 / 92.7%** | ROC-AUC 0.972 inflated (1:20 imbalance) |
+
+**The AUC jump that tells the story:**
+```
+Match Winner v1  base features  (9)   ████░░░░░░░░░░░░░░░░  0.530
+Match Winner v3  rolling form  (20)   ████████████████░░░░  0.797   ▲ +50% relative
+```
+No new data. No architecture change. No HPO. **Pure feature engineering** — rolling per-player batting average, strike rate, and bowling economy aggregated to team level with a `shift(1)` leak guard.
+
+**Engineering highlights:**
+- GRU takes variable-length innings via `pack_padded_sequence`; all cumulative features derived server-side at inference — minimal client payload
+- XGBoost models serialised as `.ubj` (native binary JSON) — eliminates joblib pickle version warnings across upgrades
+- Encoding compatibility without a stored `LabelEncoder`: `pd.astype("category").cat.codes` (alphabetical) reconstructed at API startup from processed parquets
+- CI: **Lint → Tests + model validation gate → Docker build smoke** (3 parallel jobs); synthetic artefact builder generates 80 matches — CI never needs real CSVs
+- FastAPI migrated from deprecated `@app.on_event` to `@asynccontextmanager lifespan` for correct TestClient behaviour
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔋 Featured · EV Adoption Analysis & Forecasting
+
+<table>
+<tr>
+<td>
+
+### [🔋 Washington State EV Population Analysis](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)
+**177,866 EV registrations → FastAPI inference + 6-tab Streamlit dashboard — live on Hugging Face Spaces and Streamlit Cloud.**
+
+[![Live Dashboard](https://img.shields.io/badge/🤗_Live_Demo-HuggingFace_Spaces-FFD21E?style=flat-square)](https://huggingface.co/spaces/PG-AIML/wa-ev-population-dashboard)
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit-Cloud-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://electricvehicle-oa89dgvf6dw52cd2kcxiqq.streamlit.app/)
+[![CI](https://github.com/PRANAVGAWALE-DS/Electric_vehicle/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Electric_vehicle/actions)
+[![Tests](https://img.shields.io/badge/tests-94_passing-brightgreen?style=flat-square)](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)
+
+| Model | Metric | Value | vs Baseline |
+|---|---|---|---|
+| CAFV Eligibility Classifier | CV F1-macro | **0.9725 ± 0.0006** | — |
+| CAFV Eligibility Classifier | Test F1-macro | **0.9725** | — |
+| Electric Range Regressor | Test MAE | **5.28 miles** | ↓ 85.3% from 35.90 mi |
+| Electric Range Regressor | Test RMSE | **11.88 miles** | — |
+| Electric Range Regressor | Test R² | **0.9858** | — |
+| ARIMA(2,1,1) + LightGBM | Adoption forecast | **2024–2026 walk-forward** | — |
+
 **Architecture highlights:**
-- 🎯 Two-model hybrid routing — XGBoost base + `HighValueSpecialist`; hard routing threshold `$16,701`, soft blend window `$18,037–$21,695` preventing sharp discontinuities; 4/5 KPI wins → **DEPLOY HYBRID**
-- 📐 Heteroscedastic conformal prediction — 10-bin, winsorized at 99th pctile — **91.1% empirical coverage** on n=7,701 (target: 90%)
-- 🔬 3-tier Yeo-Johnson bias correction (Low ×0.9114 · Mid ×1.0138 · High ×0.9969); post-hoc calibrator gated on holdout RMSE + R² + MAE — uncalibrated retained in current run (MAE worsened 2.38%)
-- 🔒 SHA-256 checksum verification *before* `joblib.load()` — not after (closes the RCE deserialization window)
-- 🏗️ Full MLOps: MLflow · DVC · Optuna HPO (268.6s, +4.2% train/val gap — *Minimal Overfitting*) · Docker multi-stage
-- ⚙️ CI: Lint (ruff) → Type check (mypy) ∥ Tests (pytest, 30%+ coverage) → **6-gate regression check** (G4/G6/G7 + RMSE cap + no-NaN + no-negative) → CD push to GHCR
-- 🌐 **Live:** [Dashboard](https://pg-aiml-actuarial-pricing-dashboard.hf.space) · [API + Swagger](https://pg-aiml-actuarial-pricing-api.hf.space/docs) · FastAPI `/predict` + `/batch` (1–10,000 records) · All GitHub Actions pinned to full commit SHAs
+- XGBoost + Optuna HPO (40 trials, 5-fold CV) with nested MLflow run logging for both models; `mlflow.xgboost.autolog()` on parent + 40 trial runs each
+- FastAPI inference: `/predict/cafv` (3-class + probabilities) · `/predict/range` · `/health` — Pydantic-validated, `.joblib` loaded once at startup
+- **91,950 ambiguous CAFV records** resolved at inference time; 204 (0.2%) predicted eligible — confirms most unknowns simply lack EPA range data
+- 94 passing tests across 4 modules with fully synthetic DataFrames — no CSV required in CI; `src/features.py` at 96% coverage
+- Dashboard data auto-fetched from WA DOL open-data API at startup, cached 24 hours — no CSV upload needed on HF Spaces
 
 </td>
 </tr>
@@ -101,76 +211,36 @@ Net Profit uplift +$309,396 (+6.5%)  ·  5-model benchmark  ·  51,337 samples  
 <tr>
 <td>
 
-**🏏 [IPL Match Intelligence Pipeline](https://github.com/PRANAVGAWALE-DS/Cricket)**
-<br/>*4-model ML pipeline on 12 seasons of ball-by-ball data. Temporal splits, zero data leakage.*
+**[💰 Billionaire Wealth Distribution Analysis — Advanced ML Pipeline](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset)**
+<br/>*3 models · 6 FastAPI endpoints · 83-test CI suite · live on Hugging Face Spaces*
+<br/>[![Live Demo](https://img.shields.io/badge/🤗_Live_Demo-HuggingFace_Spaces-FFD21E?style=flat-square)](https://huggingface.co/spaces/PG-AIML/billionaires-analysis) [![CI](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset/actions/workflows/ci.yml)
 
 </td>
-<td>150,460 deliveries<br/>636 matches<br/>2008–2019</td>
+<td>2,640 billionaires<br/>35 raw → 43 FE features<br/>3 models · 83 tests</td>
 <td>
 
-⭐ **Live Win Probability — AUC 0.864** (temporal split, no leakage)
-<br/>POTM Classifier — PR-AUC 0.641, Recall 92.9%
-<br/>Score Predictor — MAE 16 runs at over 10 (half-innings snapshot)
-<br/>Match Winner — AUC 0.501 *(honest: T20 is genuinely unpredictable pre-match)*
-<br/>30 interactive Plotly charts · 6 data-integrity bugs found and fixed
+Self-Made Classifier — **AUC 0.8154 · F1 0.8454 · Acc 0.7727** (XGBoost + Optuna, 40 trials, 5-fold CV)
+<br/>Worth Regressor — R²=0.0487 *(honest: demographic features carry minimal signal about wealth scale)*
+<br/>Wealth Clusterer — Silhouette **0.1790** (K-Means k=4; PCA 41% variance); `selfMade` inferred by classifier, propagated to regressor + clusterer — never requested from caller
+<br/>χ²: gender × self-made p<0.001 · ANOVA: category p<0.001 · Welch's t-test: self-made vs inherited p=0.22 *(not significant — honest)*
 
 </td>
-<td>XGBoost · LightGBM · Plotly · scikit-learn · joblib</td>
+<td>XGBoost · Optuna · SHAP · K-Means · FastAPI · Streamlit · scikit-learn · Plotly</td>
 </tr>
 
 <tr>
 <td>
 
-**⚡ [EV Adoption Forecasting Dashboard](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)**
-<br/>*EDA + ML + ARIMA/LightGBM forecasting + live Streamlit dashboard*
+**[🧬 Synthetic Tabular Data Augmentation Suite](https://github.com/PRANAVGAWALE-DS/Data-Augmentation)**
+<br/>*4 generative models benchmarked · 11-section QC · MIA privacy audit*
 
 </td>
-<td>~177,866 EV registrations<br/>Washington State DOL<br/>2010–2023</td>
+<td>1,337 → 50,000 rows<br/>4 models benchmarked<br/>37× scale generation</td>
 <td>
 
-Tesla 45.7% market share · HHI >2,500 (highly concentrated)
-<br/>King County = 52.5% of WA total · Most registered year: 2022 (28,013 vehicles)
-<br/>CAFV Eligibility Classifier + Range Regressor (XGBoost + Optuna + SHAP)
-<br/>ARIMA(2,1,1) + LightGBM walk-forward adoption forecasting
-<br/>**[Live Streamlit Dashboard ↗](https://electricvehicle-oa89dgvf6dw52cd2kcxiqq.streamlit.app/)**
-
-</td>
-<td>XGBoost · LightGBM · Optuna · SHAP · ARIMA · Streamlit · Plotly · GitHub Actions CI</td>
-</tr>
-
-<tr>
-<td>
-
-**💰 [Billionaire Wealth Distribution Analysis](https://github.com/PRANAVGAWALE-DS/Billionaires-Statistics-Dataset)**
-<br/>*EDA + statistical testing + XGBoost + K-Means clustering*
-
-</td>
-<td>2,640 billionaires<br/>35 raw → 43 FE features<br/>Kaggle 2023</td>
-<td>
-
-Self-made share: 69.2% · Gini >0.6 within the billionaire class itself
-<br/>Self-Made Classifier — **ROC-AUC 0.8436** (XGBoost + Optuna, 40 trials, 5-fold CV)
-<br/>Worth Regressor — R²=0.08 *(honest: wealth scale has minimal signal from demographics alone)*
-<br/>χ²: gender × self-made p<0.001 · ANOVA: net worth × category p<0.001
-<br/>K-Means k=4 + PCA 2D projection · SHAP beeswarm for both models
-
-</td>
-<td>XGBoost · Optuna · SHAP · K-Means · scikit-learn · Plotly · Seaborn</td>
-</tr>
-
-<tr>
-<td>
-
-**🧬 [Synthetic Tabular Data Augmentation Suite](https://github.com/PRANAVGAWALE-DS/Data-Augmentation)**
-<br/>*Synthetic tabular data pipeline with 11-section QC suite*
-
-</td>
-<td>1,337 → 50,000 synthetic rows<br/>4 generative models benchmarked<br/>11-section QC suite</td>
-<td>
-
-**TabDDPM TSTR R²=0.88** (best fidelity · requires PyTorch)
+**TabDDPM TSTR R²=0.88** (best fidelity; PyTorch-based)
 <br/>TVAE R²=0.86 · CTGAN R²=0.73 · DP-CTGAN R²=0.59
-<br/>Full fidelity, privacy, and structural QC checks · MIA AUC evaluated at 37× scale
+<br/>Full fidelity, structural, and privacy QC; MIA AUC evaluated at scale
 
 </td>
 <td>SDV · TabDDPM · CTGAN · TVAE · PyTorch · MLflow · Pandas</td>
@@ -218,11 +288,14 @@ Self-made share: 69.2% · Gini >0.6 within the billionaire class itself
 
 ```python
 focus = {
-    "active":      "Actuarial Risk Pricing System — ONNX export · async batch (Celery) · churn model integration",
-    "learning":    ["conformal prediction theory", "QLoRA fine-tuning", "speculative decoding"],
-    "next_build":  "SentinelSumm — legal NLP pipeline with DistilBERT + clause extraction",
-    "hardware":    "NVIDIA RTX 3050 4GB · 16GB RAM · Windows 11 + WSL2",
-    "philosophy":  "Production or it doesn't count",
+    "active":     [
+        "Actuarial Pricing — ONNX export · async batch (Celery) · churn model integration",
+        "Cricket ML — Cricsheet ingestion (IPL 2020–2024, ~5k matches) targeting GRU MAE < 15",
+    ],
+    "learning":   ["conformal prediction theory", "QLoRA fine-tuning", "speculative decoding"],
+    "next_build": "SentinelSumm — legal NLP pipeline with DistilBERT + clause extraction",
+    "hardware":   "NVIDIA RTX 3050 4GB · 16GB RAM · Windows 11 + WSL2",
+    "philosophy": "Production or it doesn't count",
 }
 ```
 
