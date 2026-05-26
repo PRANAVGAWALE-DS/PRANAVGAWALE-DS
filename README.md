@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=840&lines=ML+Engineer+%E2%80%94+production+or+it+doesn%27t+count;5+projects+%7C+6+live+apps+%7C+220+confirmed+tests;Actuarial+RMSE+%243%2C934+%C2%B7+91.1%25+conformal+coverage+%C2%B7+live+HF;Match+Winner+AUC+0.530+%E2%86%92+0.797+%E2%80%94+feature+engineering+alone;EV+Range+R%C2%B2+0.9858+%C2%B7+CAFV+F1+0.9725+%C2%B7+Billionaires+AUC+0.8154;XGBoost+%C2%B7+LightGBM+%C2%B7+PyTorch+GRU+%C2%B7+FastAPI+%C2%B7+Docker)](https://github.com/PRANAVGAWALE-DS)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=840&lines=ML+Engineer+%E2%80%94+production+or+it+doesn%27t+count;5+projects+%7C+6+live+apps+%7C+220+confirmed+tests;Actuarial+RMSE+%243%2C934+%C2%B7+91.1%25+conformal+coverage+%C2%B7+live+HF;Match+Winner+AUC+0.530+%E2%86%92+0.797+%E2%80%94+feature+engineering+alone;EV+Range+R%C2%B2+0.9858+%C2%B7+CAFV+F1+0.9715+%C2%B7+Billionaires+AUC+0.8154;XGBoost+%C2%B7+LightGBM+%C2%B7+PyTorch+GRU+%C2%B7+FastAPI+%C2%B7+Docker)](https://github.com/PRANAVGAWALE-DS)
 
 <br/>
 
@@ -32,7 +32,7 @@ Every project here is engineered for production — real deployment gates, monit
 
 | 🗄️ Records Handled | 🧪 Confirmed Tests | 🚀 Live Deployments | 🎯 Best Classifier | 📐 Best Regressor |
 |:---:|:---:|:---:|:---:|:---:|
-| **460,000+** | **220 confirmed** | **6 live apps** | **F1 0.9725** (CAFV) | **R² 0.9858** (EV Range) |
+| **460,000+** | **229 confirmed** | **6 live apps** | **F1 0.9725** (CAFV) | **R² 0.9858** (EV Range) |
 
 </div>
 
@@ -174,12 +174,12 @@ No new data. No architecture change. No HPO. **Pure feature engineering** — ro
 [![Live Dashboard](https://img.shields.io/badge/🤗_Live_Demo-HuggingFace_Spaces-FFD21E?style=flat-square)](https://huggingface.co/spaces/PG-AIML/wa-ev-population-dashboard)
 [![Streamlit Cloud](https://img.shields.io/badge/Streamlit-Cloud-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://electricvehicle-oa89dgvf6dw52cd2kcxiqq.streamlit.app/)
 [![CI](https://github.com/PRANAVGAWALE-DS/Electric_vehicle/actions/workflows/ci.yml/badge.svg)](https://github.com/PRANAVGAWALE-DS/Electric_vehicle/actions)
-[![Tests](https://img.shields.io/badge/tests-94_passing-brightgreen?style=flat-square)](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)
+[![Tests](https://img.shields.io/badge/tests-102_passing-brightgreen?style=flat-square)](https://github.com/PRANAVGAWALE-DS/Electric_vehicle)
 
 | Model | Metric | Value | vs Baseline |
 |---|---|---|---|
-| CAFV Eligibility Classifier | CV F1-macro | **0.9725 ± 0.0006** | — |
-| CAFV Eligibility Classifier | Test F1-macro | **0.9725** | — |
+| CAFV Eligibility Classifier | CV F1-macro | **0.9731 ± 0.0019** | — |
+| CAFV Eligibility Classifier | Test F1-macro | **0.9715** | — |
 | Electric Range Regressor | Test MAE | **5.28 miles** | ↓ 85.3% from 35.90 mi |
 | Electric Range Regressor | Test RMSE | **11.88 miles** | — |
 | Electric Range Regressor | Test R² | **0.9858** | — |
@@ -189,7 +189,7 @@ No new data. No architecture change. No HPO. **Pure feature engineering** — ro
 - XGBoost + Optuna HPO (40 trials, 5-fold CV) with nested MLflow run logging for both models; `mlflow.xgboost.autolog()` on parent + 40 trial runs each
 - FastAPI inference: `/predict/cafv` (3-class + probabilities) · `/predict/range` · `/health` — Pydantic-validated, `.joblib` loaded once at startup
 - **91,950 ambiguous CAFV records** resolved at inference time; 204 (0.2%) predicted eligible — confirms most unknowns simply lack EPA range data
-- 94 passing tests across 4 modules with fully synthetic DataFrames — no CSV required in CI; `src/features.py` at 96% coverage
+- 102 passing tests across 4 modules with fully synthetic DataFrames — no CSV required in CI; `src/features.py` at 98% coverage
 - Dashboard data auto-fetched from WA DOL open-data API at startup, cached 24 hours — no CSV upload needed on HF Spaces
 
 </td>
