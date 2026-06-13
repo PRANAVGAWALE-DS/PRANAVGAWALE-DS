@@ -63,6 +63,12 @@ Every project here is engineered for production — real deployment gates, monit
 ![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white)
 ![Conformal Prediction](https://img.shields.io/badge/Conformal_Prediction-7C3AED?style=flat-square&logoColor=white)
 
+**LLM & Agentic AI** &nbsp;
+![Groq](https://img.shields.io/badge/Groq-llama--3.3--70b-F55036?style=flat-square&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-HNSW_384--dim-FF6F00?style=flat-square&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-Session_Store-DC382D?style=flat-square&logo=redis&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-NL--to--SQL_Agent-6B7280?style=flat-square&logoColor=white)
+
 **MLOps & Serving** &nbsp;
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white)
@@ -111,6 +117,75 @@ Net Profit uplift +$309,396 (+6.5%)  ·  5-model benchmark  ·  51,337 samples  
 | **Security** | SHA-256 checksum verification *before* `joblib.load()` — closes the RCE deserialization window, not after |
 | **HPO** | Optuna (268.6s) — minimal overfitting (4.2% train/val gap) |
 | **CI/CD** | ruff → mypy ∥ pytest (30%+ coverage) → **6-gate regression** (G4/G6/G7 + RMSE cap + no-NaN + no-negative) → CD to GHCR; all Actions pinned to full commit SHAs |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🤖 Featured · Analyst Copilot
+
+<table>
+<tr>
+<td>
+
+### [🤖 Analyst Copilot — NL-to-SQL/Pandas Agentic System](https://github.com/PRANAVGAWALE-DS/Analyst-Copilot)
+**LLM-powered natural language → SQL/Pandas agent with RAG over tabular schemas — 6 endpoints · 62% test coverage · Docker Compose.**
+
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![FAISS](https://img.shields.io/badge/FAISS-HNSW_384--dim-FF6F00?style=flat-square)](https://github.com/facebookresearch/faiss)
+[![Redis](https://img.shields.io/badge/Redis-Session_Store-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
+[![Groq](https://img.shields.io/badge/Groq-llama--3.3--70b--versatile-F55036?style=flat-square&logoColor=white)](https://groq.com)
+
+```
+p50 ~10s · p95 ~15s · 100K TPD Groq budget · 6 API endpoints · 62% coverage · 26 test files
+```
+
+**State machine pipeline:**
+```
+NL Query
+  │
+  ▼
+INTAKE          Injection detection, query cleaning
+  │
+  ▼
+RETRIEVAL       FAISS schema search (k=5) + LTM exact-hit check + session history
+  │
+  ├── LTM hit ──────────────────────────────────────────────────────────┐
+  │                                                                      │
+  ▼                                                                      ▼
+GENERATION      LLM generates SQL/Pandas                           VALIDATION
+                SQL post-processor: F1 integer div,                (fast path)
+                F2 nullif, W1 fan-out detection                         │
+  │                                                                      │
+  ▼  ◄──────────────────────────────────────────────────────────────────┘
+EXECUTION       execute_sql (SQLAlchemy) or execute_python (AST sandbox)
+  │
+  ▼
+RESULT_CHECK    EMPTY_RESULT · RESULT_CAPPED · IMPLAUSIBLE_VALUE detection
+  │
+  ▼
+INSIGHT         LLM narrates result in plain English
+  │
+  ▼
+JSON Response
+
+Failed states re-enter at GENERATION via ERROR_CORRECT (max 3 attempts).
+```
+
+| Design Decision | Detail |
+|---|---|
+| **Read-only guard** | `INSERT`/`UPDATE`/`DELETE`/`DROP` blocked at validation layer; PostgreSQL transaction-level enforcement as second layer; SQLite: validation layer only |
+| **Injection hardening** | Prompt injection + SQL injection → `INJECTION_DETECTED` returned before any LLM call |
+| **RAG retrieval** | FAISS HNSW · `BAAI/bge-small-en-v1.5` (384-dim, ~3s warm start) · k=5 schema chunks per query |
+| **Long-term memory** | Cross-session FAISS LTM injects prior query→SQL pairs into generation prompts; exact-hit skips generation entirely |
+| **SQL post-processor** | F1: integer division fix · F2: nullif coercion · W1: fan-out join warning (SUM inflation on multi-level joins) |
+| **Pandas sandbox** | AST-validated execution environment — file I/O methods blocked; `/upload` endpoint for CSV/Parquet/XLSX |
+| **Session store** | Redis (persistent, multi-worker safe) · in-memory fallback (dev/test, auto-detected) |
+| **Coverage** | 62% overall (3,116 statements) · `dataframe_loader.py` 99% · `interfaces.py` 98% · `orchestrator.py` 62% |
 
 </td>
 </tr>
@@ -289,7 +364,7 @@ Self-Made Classifier — **AUC 0.8154 · F1 0.8454 · Acc 0.7727** (XGBoost + Op
 ```python
 focus = {
     "active":     [
-        "Actuarial Pricing — ONNX export · async batch (Celery) · churn model integration",
+        "Analyst Copilot — eval pipeline · LLM output normalisation · FAISS enum gap fixes · Groq Dev Tier",
         "Cricket ML — Cricsheet ingestion (IPL 2020–2024, ~5k matches) targeting GRU MAE < 15",
     ],
     "learning":   ["conformal prediction theory", "QLoRA fine-tuning", "speculative decoding"],
